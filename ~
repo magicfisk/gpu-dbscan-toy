@@ -1,0 +1,30 @@
+#include<stdio.h>
+
+
+#define N 100000
+#define CN 10
+#define Max 1000000
+#define ptsize 1000
+
+struct pt
+{
+	int x[2];
+};
+
+pt point[N+100];
+
+int n;
+
+int main()
+{
+	freopen("data.txt","r",stdin);
+	freopen("ans.txt","w",stdout);
+	
+	scanf("%d",&n);
+	for (int i=0;i<N;++i)
+	{
+		scanf("%d %d",&point[i].x[0],&point[i].x[1]);
+	}	
+	
+} 
+
